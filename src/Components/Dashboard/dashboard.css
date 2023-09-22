@@ -1,0 +1,35 @@
+.DashBoard-Container h2{
+    margin-top: 50px;
+}
+
+.expense-budget-container{
+    display: flex;
+    gap: 100px;
+}
+.exist-Budgets{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+}
+.section-2 h2{
+   color: var(--thirty-percent);
+}
+
+.section-2{
+    width: 100%;
+    margin-top: 50px;
+    overflow-y: auto;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 475px) {
+    .expense-budget-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .exist-Budgets{
+        grid-template-columns: 1fr;
+    }
+}

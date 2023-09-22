@@ -1,0 +1,46 @@
+.LoginUser {
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.login-btn {
+  border-radius: 5px;
+  margin-left: 15px;
+  height: 50px;
+}
+
+.Login-input {
+  width: 200px;
+  font-size: 16px;
+  padding: 10px;
+  border: 3px solid var(--thirty-percent);
+}
+
+.login-para-form {
+  text-align: center;
+  width: 50%;
+}
+
+.login-para-form p {
+  margin-top: 10px;
+}
+
+.login-para-form form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 475px) {
+  .login-para-form{
+    width: 90%;
+  }
+}
+
+

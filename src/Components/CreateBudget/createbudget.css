@@ -1,0 +1,23 @@
+.create-budget-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  display: none;
+}
+
+.create-budget-container {
+  background-color: rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.create-budget-container input {
+  width: 100%;
+}
+
+.create-budget-container h3 {
+  margin-bottom: 10px;
+}

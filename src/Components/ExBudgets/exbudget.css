@@ -1,0 +1,68 @@
+.ex-budget-container{
+  width: 90%;
+  background-color: white;
+  color: black;
+  padding:  10px 10px 10px 10px;
+  border-radius: 10px;
+  margin: 20px auto;
+  position: relative;
+
+  
+
+}
+
+.ex-budget-container *:not(h3){
+  margin-top: 5px;
+}
+
+.dottedborder-ex{
+  position: relative;
+  padding: 20px;
+  border-radius: 10px;
+  border: 3px dotted var(--thirty-percent);
+}
+.btn-delete{
+  position: absolute;
+  top: 0;
+  right: 5px;
+}
+
+.budget-name-amount{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.budget-name-amount > p {
+  margin-left: auto;
+  margin-right: 45px;
+}
+progress{
+ 
+  appearance: none;
+  width: 85%;
+  height: 20px;
+  border-radius: 100vmax;
+ 
+}
+
+progress[value]::-webkit-progress-bar{
+  background-color: hsl(0,0%,100%);
+  border: 2px solid var(--hsl-thirty);
+
+}
+
+progress[value]::-webkit-progress-value{
+  background-color: var(--hsl-thirty);
+}
+
+
+.budget-status{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.budget-status p:nth-child(2){
+  margin-right: 45px;
+}

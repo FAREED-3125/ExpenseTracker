@@ -1,0 +1,13 @@
+.HomeLayout-Main{
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+}
+
+footer{
+    padding: 20px 0px;
+    height: 5%;
+    text-align: center;
+    color: var(--thirty-percent);
+}
+

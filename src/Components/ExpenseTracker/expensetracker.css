@@ -1,0 +1,19 @@
+.expense-tracker-container{
+    background-color: rgba(0, 0, 0, 0.2) ;
+    position: relative;
+
+}
+.expense-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.expense-form input{
+    width: 100%;
+}
+
+.expense-tracker-container h3{
+    margin-bottom: 10px;
+}
+

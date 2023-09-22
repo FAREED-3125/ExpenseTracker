@@ -1,0 +1,12 @@
+table{
+    text-align: left;
+    width: 95%;
+    margin: 0 auto;
+    border: 2px solid var(--thirty-percent);
+}
+
+.Budget-history-container{
+   margin: 20px auto;
+   
+
+}
