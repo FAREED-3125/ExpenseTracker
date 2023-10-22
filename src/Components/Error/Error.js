@@ -17,7 +17,7 @@ const Error = () => {
       <div className="Error-btns">
         <button className="btn go-back"
           onClick={() => {
-            navigate(-1);
+            navigate("/");
           }}
         >
           Go Back
